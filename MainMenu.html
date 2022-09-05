@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu</title>
+    <style>
+    body {width: 320px; height: 568px; background-image: url('images/MainMenuBackgroundImage.jpg'); background-repeat: no-repeat;}
+    h1 { color: blueviolet; -webkit-text-stroke-width: 0.5px; -webkit-text-stroke-color: black; font: Racing Sans One;}
+    @font-face { font-family: RacingFont; src: url(racing-sans-one/RacingSansOne-Regular.ttf);}
+    #Heading {font-family: RacingFont;}
+    #MyFavourite {padding-bottom: 0px; margin-bottom: 0px; font-size: 48px; padding-left: 10px;}
+    #Games {padding-top: 0px; margin-top: 0px; text-align: center; font-size: 48px;}
+    #GameMenu {font-family: RacingFont; width: 240px; height: 82px; font-size: 36px; margin-top: 190px; margin-left: 30px;}
+    #AboutMe {font-family: RacingFont; width: 240px; height: 82px; font-size: 36px; margin-top: 10px; margin-left: 30px;}
+    </style>
+</head>
+<body>
+    <div id="Heading"> 
+    <h1 id="MyFavourite">My Favourite</h1>
+    <h1 id="Games">Games!</h1>
+    <button id="GameMenu" onclick="window.location.href='ListOfGames.html';">Game Menu</button>
+    <button id="AboutMe" onclick="window.location.href='AboutMe.html';">About Me</button>
+</div>
+</body>
+</html>
